@@ -1,6 +1,5 @@
-
 $(document).ready(function() {
-  $("#questions form").submit(function(event) {
+  $("form#questions").submit(function(event) {
     var view = parseInt($("select#view").val());
     var poison = parseInt($("select#poison").val());
     var date = parseInt($("select#date").val());
@@ -14,12 +13,12 @@ $(document).ready(function() {
       $('#Caribbean').hide();
       $('#Penthouse').hide();
       $('#Tree-House').show();
-    } else if (answer >=51 && answer <= 100) {
+    } else if (answer >50 && answer <= 100) {
       $('#Penthouse').hide();
       $('#Tree-House').hide();
       $('#Caribbean').show();
 
-    } else if (answer >=101 && answer <= 150){
+    } else if (answer >100 && answer <= 150){
       $('#Caribbean').hide();
       $('#Tree-House').hide();
       $('#Penthouse').show();
