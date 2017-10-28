@@ -5,7 +5,6 @@ $(document).ready(function() {
     var date = parseInt($("select#date").val());
     var admire = parseInt($("select#admire").val());
     var transportation = parseInt($("select#transportation").val());
-
     var answer = (view + poison + date + admire + transportation);
 
 

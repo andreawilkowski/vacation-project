@@ -5,6 +5,21 @@
 .jumbotron {
   padding-top: 10px;
   text-align: center;
-  background-color:  #66ffe0;
+  background-color:  #ffffff;
+  background-image: url("collage.jpg");
+  height: 170px;
+}
 
+#hidden {
+  text-align: center;
+  background-color: #e6e6e6;
+  padding-bottom: 60px;
+}
+
+.container {
+  background-color: #e6e6e6;
+}
+
+h1 {
+  text-align: center;
 }
