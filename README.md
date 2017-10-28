@@ -13,7 +13,7 @@ _This is a project website.  The objective is to gather user input via a form an
 * _clone this repository to the location of your choice_
 * _click on the vacation-project file for your viewing pleasure_
 
-## Here is a link to my [site](https://andreawilkowski.github.io/portfolio/)
+## Here is a link to my [site](https://andreawilkowski.github.io/vacation-project/)
 ## Support and contact details
 
 _Please contact Andrea Wilkowski with any questions or comments._
