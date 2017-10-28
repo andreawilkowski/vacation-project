@@ -12,10 +12,14 @@
       <h1>Find Your Ideal Vacation!</h1>
       <div class="jumbotron">
       </div>
-
       <form id="questions">
+        <div class="form-group">
+          <label for="person">Please enter your name:</label>
+          <input id="person" class="form-control" type="text">
+        </div>
         <p>Which do you prefer?</p>
         <select class="form-control" id="view">
+          <option></option>
           <option value="10">Trees</option>
           <option value="20">Ocean</option>
           <option value="30">Expansive City Views</option>
@@ -24,6 +28,7 @@
 
         <p>Pick your poison!</p>
         <select class="form-control" id="poison">
+          <option></option>
           <option value="10">Beer</option>
           <option value="20">Hard Alcohol</option>
           <option value="20">Wine</option>
@@ -33,6 +38,7 @@
 
         <p>Your ideal first date is:</p>
         <select class="form-control" id="date">
+          <option></option>
           <option value="10">Happy Hour at the Bye & Bye</option>
           <option value="10">Walking around Powell"s</option>
           <option value="30">Speed Dating</option>
@@ -41,6 +47,7 @@
 
         <p>Who do you admire most?</p>
         <select class="form-control" id="admire">
+          <option></option>
           <option value="10">John Muir</option>
           <option value="10">Henry David Thoreau</option>
           <option value="20">Jimmy Buffet</option>
@@ -51,6 +58,7 @@
 
         <p>Favorite mode of transportation:</p>
         <select class="form-control" id="transportation">
+          <option></option>
           <option value="10">Walking</option>
           <option value="30">Subway</option>
           <option value="30">Taxi</option>
@@ -61,17 +69,17 @@
       </form>
       <div id="hidden">
         <div id="Tree-House">
-          <h2>Click on the image to find out more!</h2>
+          <h2><span class="person"></span>, Your dream vacation awaits! <br> Click on the image to find out more</h2>
           <br>
           <a href="https://www.treehousepoint.com/"><img src="img/treehouse.jpg" alt="pic of treehouse"></a>
         </div>
         <div id="Penthouse">
-          <h2>Click on the image to find out more!</h2>
+          <h2><span class="person"></span>, Your dream vacation awaits! <br> Click on the image to find out more</h2>
           <br>
           <a href="https://www.bellagio.com/en/hotel/penthouse-suite.html"><img src="img/skyline.jpg" alt="pic of skyline"></a>
         </div>
         <div id="Caribbean">
-          <h2>Click on the image to find out more!</h2>
+          <h2><span class="person"></span>, Your dream vacation awaits! <br> Click on the image to find out more</h2>
           <br>
           <a href="http://www.compasspointbeachresort.com/"><img src="img/beach.jpg" alt="pic of beach"></a>
         </div>
